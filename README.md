@@ -55,13 +55,14 @@ Here is a working live version of the app:
 
 ## 📂 Project Structure
 
+```
 Recipe-Finder
 │
 ├── index.html # Main HTML structure
 ├── styles.css # Custom styles and design
 ├── script.js # Logic, API calls, modal management
 ├── README.md # Project documentation
-
+```
 ---
 
 ## ⚙️ How It Works
@@ -89,6 +90,7 @@ Recipe-Finder
    ```bash
    git clone https://github.com/ArmanZaki/Recipe-Finder.git
 2. Navigate to the folder:
+   ```
    cd recipe-finder
 3. Open index.html in your browser to see it running locally
 
@@ -110,9 +112,9 @@ This project is hosted via GitHub Pages, making it public and accessible.
 
 ## 🙏 Acknowledgements
 
-**Spoonacular API** [Link](https://spoonacular.com/food-api)– recipe data source
-**MDN Web Docs**[Link](https://developer.mozilla.org)– core HTML, CSS, JavaScript references
-**Stack Overflow**[Link](https://stackoverflow.com/)– community knowledge & debugging help
+**Spoonacular API** [](https://spoonacular.com/food-api)– recipe data source
+**MDN Web Docs**[](https://developer.mozilla.org)– core HTML, CSS, JavaScript references
+**Stack Overflow**[](https://stackoverflow.com/)– community knowledge & debugging help
 
 ---
 
