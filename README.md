@@ -76,11 +76,21 @@ Recipe-Finder
 
 ## 📸 Screenshots
 
-- Home  <img width="1896" height="906" alt="Screenshot 2025-10-03 113957" src="https://github.com/user-attachments/assets/befd2d11-e88d-4af8-a756-18654778a6bf" />
-- Search <img width="1900" height="907" alt="Screenshot 2025-10-03 114036" src="https://github.com/user-attachments/assets/d43d886a-e9cb-481f-8e23-e9f25f638c6c" />
-- Recipe cards displayed  <img width="1528" height="889" alt="Screenshot 2025-10-03 190259" src="https://github.com/user-attachments/assets/ecd527e1-4efa-493f-9934-4d63e492a514" />
-- Modal showing recipe details <img width="1896" height="906" alt="Screenshot 2025-10-03 114102" src="https://github.com/user-attachments/assets/5ba86e2f-0531-4a4f-aba6-e3cb998a869d" />  
-- Favorites page  <img width="1901" height="907" alt="Screenshot 2025-10-03 114140" src="https://github.com/user-attachments/assets/0ade6ebe-e963-4898-ae70-b3dc50d7dccc" />
+- Home
+<img width="400" height="500" alt="Screenshot 2025-10-03 113957" src="https://github.com/user-attachments/assets/befd2d11-e88d-4af8-a756-18654778a6bf" />
+
+- Search
+<img width="400" height="500" alt="Screenshot 2025-10-03 114036" src="https://github.com/user-attachments/assets/d43d886a-e9cb-481f-8e23-e9f25f638c6c" />
+
+- Recipe cards displayed
+<img width="400" height="500" alt="Screenshot 2025-10-03 190259" src="https://github.com/user-attachments/assets/ecd527e1-4efa-493f-9934-4d63e492a514" />
+
+- Modal showing recipe details
+<img width="400" height="500" alt="Screenshot 2025-10-03 114102" src="https://github.com/user-attachments/assets/5ba86e2f-0531-4a4f-aba6-e3cb998a869d" />
+
+- Favorites page
+<img width="400" height="500" alt="Screenshot 2025-10-03 114140" src="https://github.com/user-attachments/assets/0ade6ebe-e963-4898-ae70-b3dc50d7dccc" />
+
 
 ---
 
@@ -112,16 +122,16 @@ This project is hosted via GitHub Pages, making it public and accessible.
 
 ## 🙏 Acknowledgements
 
-**Spoonacular API** [](https://spoonacular.com/food-api)– recipe data source
-**MDN Web Docs**[](https://developer.mozilla.org)– core HTML, CSS, JavaScript references
-**Stack Overflow**[](https://stackoverflow.com/)– community knowledge & debugging help
+- **Spoonacular API** [](https://spoonacular.com/food-api)– recipe data source
+- **MDN Web Docs**[](https://developer.mozilla.org)– core HTML, CSS, JavaScript references
+- **Stack Overflow**[](https://stackoverflow.com/)– community knowledge & debugging help
 
 ---
 
 ## 👤 Author
 
-Developed by **Arman Zaki**
-Virtual Internship – Web Development Project
+- Developed by **Arman Zaki**
+- Virtual Internship – Web Development Project
 
 ---
 
