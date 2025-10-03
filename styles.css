@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 30px;
+  min-height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  color: #816959;
+  background: #faf3e7 ;
+  background-blend-mode: lighten;
+}
+
+/* main wrapper */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  background: #f8e8d6 ;
+  border-radius: 28px;
+  border: 3px solid #d8b26e;
+  box-shadow: 0 10px 50px rgba(148, 115, 77, 0.15);
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d8b26e;
+  border-bottom: 2px dotted #e7986a;
+  padding: 16px 20px;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  box-shadow: 0 3px 16px rgba(148, 115, 77, 0.15);
+}
+
+header h1 {
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  font-size: 36px;
+  color: #b86b45;
+  text-shadow: 1px 1px 0 #fff9f3;
+}
+
+header p {
+  margin: 4px 0 0;
+  font-style: italic;
+  font-size: 17px;
+  color: #b86b45;
+}
+
+header .meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.chip {
+  background: #b5b682;
+  color: white;
+  font-size: 14px;
+  padding: 5px 12px;
+  border-radius: 12px;
+}
+
+/* search box*/
+.search-card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  border: 2px solid #e7986a;
+  background: linear-gradient(110deg, #f8e8d6 70%, #d8b26e 150px);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  box-shadow: 0 5px 24px rgba(148, 115, 77, 0.15);
+}
+
+.search-input {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+.search-input input,
+.search-input select {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 2px dashed #c49792;
+  background: #fff9f3;
+  font-size: 15px;
+  color: #816959;
+}
+.search-input input:focus,
+.search-input select:focus {
+  outline: none;
+  border-color: #d8b26e;
+  box-shadow: 0 0 0 2px #b5b682;
+}
+
+/* buttons */
+.btn {
+  background: #b86b45;
+  color: #fff9f3;
+  border: none;
+  border-radius: 14px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(148, 115, 77, 0.15);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.btn:hover {
+  background: #e7986a;
+  color: #b86b45;
+}
+.btn.ghost {
+  background: transparent;
+  border: 2px solid #b86b45;
+  color: #b86b45;
+}
+.btn.small {
+  font-size: 16px;
+  padding: 4px 10px;
+}
+.btn.small.active {
+  background: #e7986a;
+  color: #fff9f3;
+}
+
+.grid {
+  display: grid;
+  gap: 18px;
+  padding: 0 20px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.card {
+  background: #fff9f3;
+  border: 2px solid #d8b26e;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(148, 115, 77, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.card-body {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-body h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: #b86b45;
+  font-weight: 600;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px;
+  font-style: italic;
+  color: #c49792;
+}
+
+/* modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background: #fff9f3;
+  border-radius: 18px;
+  padding: 22px;
+  max-width: 620px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 6px 26px rgba(148, 115, 77, 0.15);
+  position: relative; 
+}
+.modal h2 {
+  margin-top: 0;
+  color: #b86b45;
+}
+.modal h3 {
+  margin-bottom: 6px;
+  color: #e7986a;
+}
+.modal button#close-modal {
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  cursor: pointer;
+  color: #816959;
+  z-index: 2; 
+  padding: 0 6px; 
+  transition: color 0.2s;
+}
+.ingredients {
+  list-style: disc;
+  padding-left: 22px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 600px) {
+  .search-card {
+    flex-direction: column;
+  }
+  header {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
